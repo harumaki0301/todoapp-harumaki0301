@@ -5,4 +5,3 @@ Rails.application.routes.draw do
   get '/signin', to: 'home#signin'
   get '/signup', to: 'home#signup'
 end
-
