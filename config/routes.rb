@@ -1,7 +1,8 @@
 Rails.application.routes.draw do
   devise_for :users
   # For details on the DSL available within this file, see https://guides.rubyonrails.org/routing.html
-  get 'home/index', to: 'home#index'
-
+  get '/', to: 'home#index'
+  get '/signin', to: 'home#signin'
+  get '/signup', to: 'home#signup'
 end
 
